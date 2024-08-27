@@ -10,12 +10,16 @@ header nav{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 50px;
+    gap: 150px;
     font-size: 28px;
 }
 
-header nav Link{
+header nav a{
     color: #333333;
     text-decoration: none;
 }
 
+
+header nav a:hover{
+    color: #33333392;
+}

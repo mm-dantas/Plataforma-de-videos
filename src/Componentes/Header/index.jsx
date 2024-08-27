@@ -4,9 +4,9 @@ function Header() {
     return(
         <header>
             <nav>
-                <Link href="">Home</Link>
-                <Link href="">Sobre</Link>
-                <Link href="">Contato</Link>
+                <a href="">Home</a>
+                <a href="">Sobre</a>
+                <a href="">Contato</a>
             </nav>
         </header>
     )
