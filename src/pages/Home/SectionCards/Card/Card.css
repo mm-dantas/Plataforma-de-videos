@@ -1,0 +1,25 @@
+.containerCard {
+    height: 326px;
+    width: 309px;
+    background-color: #F1C2B0;
+    border-radius: 16px;
+    padding: 20px;
+}
+
+.containerCard h1 {
+    font-size: 64px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.containerCard h2 {
+    font-size: 32px;
+    font-weight: 500;
+    color: #333333;
+}
+
+.containerCard p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #333333;
+}
