@@ -4,19 +4,25 @@ function FormContato() {
     return (
       <section id="contact">
         <form>
-          <label htmlFor="Nome">Nome:</label>
-          <input type="text" id='nome'  />
+          <div className="label-input-wrapper">
+            <label htmlFor="Nome">Nome:</label>
+            <input type="text" id='nome' />
+          </div>
 
-          <label htmlFor="Email">Email:</label>
-          <input type="email" id='email'  />
+          <div className="label-input-wrapper">
+            <label htmlFor="Email">Email:</label>
+            <input type="email" id='email' />
+          </div>
 
           <label htmlFor="Mensagem">Mensagem:</label>
-          <textarea id='mensagem'  />
+          <textarea id='mensagem' />
 
-          <button type="submit">Enviar</button>
+          <div className="button-wrapper">
+            <button type="submit">Enviar</button>
+          </div>
         </form>
       </section>
     );
   }
-  
+
   export default FormContato;

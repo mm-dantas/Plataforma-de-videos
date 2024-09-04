@@ -1,15 +1,15 @@
 .container{
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: center;
     align-items: center;
     padding: 50px;
-    gap: 30px;
+    gap: 80px;
 }
 
 #linha{
-    width: 3px;
+    width: 2px;
     height: 522px;
-    background: #B9B7B7;
+    background: #9d9a9a;
     display: flex;
     align-self: center;
     margin: 5px;

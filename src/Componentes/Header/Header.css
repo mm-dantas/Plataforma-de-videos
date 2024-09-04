@@ -8,12 +8,15 @@ header nav{
 }
 
 header nav li{
-    color: #333333;
-    text-decoration: none;
     list-style: none;
 }
 
+header nav li a{
+    color: #333333;
+    text-decoration: none;
+}
 
-header nav li:hover{
+
+header nav li a:hover{
     color: #33333392;
 }
