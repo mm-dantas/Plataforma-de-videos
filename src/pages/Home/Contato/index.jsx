@@ -6,8 +6,11 @@ import RedesSociais from "./RedesSociais"
 function Contato(){
     return(
         <>
-            <RedesSociais/>
-           <FormContato/>
+            <div className="container">
+                <RedesSociais/>
+                <div id="linha"></div>
+                 <FormContato/>
+            </div>
         </>
     )
 }

@@ -1,11 +1,18 @@
+import './FormContato.css'
+
 function FormContato() {
     return (
       <section id="contact">
-        <h2>Entre em Contato</h2>
         <form>
-          <input type="text" placeholder="Nome" />
-          <input type="email" placeholder="Email" />
-          <textarea placeholder="Mensagem" />
+          <label htmlFor="Nome">Nome:</label>
+          <input type="text" id='nome'  />
+
+          <label htmlFor="Email">Email:</label>
+          <input type="email" id='email'  />
+
+          <label htmlFor="Mensagem">Mensagem:</label>
+          <textarea id='mensagem'  />
+
           <button type="submit">Enviar</button>
         </form>
       </section>

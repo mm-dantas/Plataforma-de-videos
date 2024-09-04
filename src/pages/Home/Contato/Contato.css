@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 50px;
+    gap: 30px;
+}
+
+#linha{
+    width: 2px;
+    height: 522px;
+    background: #B9B7B7;
+    display: flex;
+    align-self: center;
+    margin: 5px;
+}
