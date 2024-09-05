@@ -1,6 +1,6 @@
-import Discord from "../../../../assets/Discord.png";
-import Twitter from "../../../../assets/Twitter.png";
-import Instagram from "../../../../assets/Instagram.png";
+import Discord from "../../../assets/Discord.png";
+import Twitter from "../../../assets/Twitter.png";
+import Instagram from "../../../assets/Instagram.png";
 import './RedesSociais.css'
 
 

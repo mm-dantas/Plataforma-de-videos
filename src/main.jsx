@@ -4,7 +4,7 @@ import App from './App.jsx'
 import './index.css'
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 import Home from './pages/Home'
-import Contato from './pages/Home/Contato/index.jsx'
+import Contato from './pages/Contato/index.jsx'
 
 
 

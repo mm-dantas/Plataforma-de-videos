@@ -1,13 +1,29 @@
-import "./Card.css"
+    import "./Card.css"
 
-function Card() {
-    return(
-        <div className="containerCard">
-            <h1>01</h1>
-            <h2>Youtube</h2>
-            <p>Produza conteúdo cativante e conquiste seu público com vídeos de alta qualidade no maior palco digital do mundo.</p>
-        </div>
-    )
-}
+    function Card({ dados }) {
+        return(
+            <>  
+            {
+                dados.map((pegaDados, index) => (
 
-export default Card
+                    <div 
+                    className="containerCard"
+                    key={index}
+                    style={
+                        {
+                            backgroundColor: pegaDados.corFundo
+                        }
+                    }>
+                        
+                        <h1>{(index + 1).toString().padStart(2,'0')}</h1>
+                        <h2>{pegaDados.nomePlat}</h2>
+                        <p>{pegaDados.sobre}</p>
+                        <img src={pegaDados.img} alt="Imagem do ícone do youtue"/>
+                    </div>
+                ))
+            }
+            </>
+        )
+    }
+
+    export default Card

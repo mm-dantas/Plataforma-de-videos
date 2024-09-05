@@ -1,9 +1,9 @@
 .containerCard {
-    height: 326px;
-    width: 309px;
-    background-color: #F1C2B0;
+    height: 309px;
+    width: 293px;
     border-radius: 16px;
     padding: 20px;
+    position: relative;
 }
 
 .containerCard h1 {
@@ -22,4 +22,10 @@
     font-size: 18px;
     font-weight: 500;
     color: #333333;
+}
+
+.containerCard img {
+    position: absolute;
+    top: 25px;
+    right: 25px;
 }
