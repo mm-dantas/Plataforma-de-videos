@@ -53,3 +53,6 @@
     margin-top: auto; 
   }
   
+button {
+  z-index: 2
+}
