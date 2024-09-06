@@ -1,4 +1,4 @@
-form {
+.form_Form {
     display: flex;
     flex-direction: column;
     align-items: flex-start; 
@@ -37,7 +37,7 @@ textarea {
     width: 100%;
 }
 
-button {
+.botao_Form {
     padding: 10px 20px;
     background-color: #6C63FF;
     color: #fff;
@@ -50,7 +50,7 @@ button {
     margin-top: 50px;
 }
 
-button:hover {
+.botao_Form:hover {
     background-color: #5648d0c0;
 }
 

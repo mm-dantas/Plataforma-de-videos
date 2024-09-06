@@ -1,4 +1,4 @@
-h1{
+.titulo_Redes{
     font-size: 60px;
     margin-bottom: 50px;
     line-height: 74px;
@@ -15,7 +15,7 @@ h1{
     gap: 15px;
 }
 
-.icones a img{
+.icones a .img_Redes{
     width: 50px;
     height: 50px;
 }

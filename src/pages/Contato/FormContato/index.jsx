@@ -3,7 +3,7 @@ import './FormContato.css'
 function FormContato() {
     return (
       <section id="contact">
-        <form>
+        <form className='form_Form'>
           <div className="label-input-wrapper">
             <label htmlFor="Nome">Nome:</label>
             <input type="text" id='nome' />
@@ -18,7 +18,7 @@ function FormContato() {
           <textarea id='mensagem' />
 
           <div className="button-wrapper">
-            <button type="submit">Enviar</button>
+            <button className='botao_Form' type="submit">Enviar</button>
           </div>
         </form>
       </section>
