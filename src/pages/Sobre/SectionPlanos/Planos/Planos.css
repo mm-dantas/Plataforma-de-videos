@@ -1,0 +1,55 @@
+.planos-container {
+    display: flex;
+    flex-direction: column  ; 
+    align-items: center;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f4f4;
+    width: 100%;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .cards-container {
+    display: flex;
+    justify-content: space-around; 
+    gap: 20px;
+    width: 100%; 
+    flex-direction: row;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    box-sizing: border-box;
+  }
+  
+  .card h3 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+  }
+  
+  .card p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .card button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: auto; 
+  }
+  

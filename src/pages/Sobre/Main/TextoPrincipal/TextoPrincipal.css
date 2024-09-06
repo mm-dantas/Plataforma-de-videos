@@ -1,17 +1,21 @@
 .containerTexto {
     display: flex;
     flex-direction: column;
-    gap: 32px;
     height: auto;
     margin-left: 64px;
+    width: 50%;
+    text-align: left; 
 }
 
 h1 {
     font-size: 60px;
+    text-align: left; 
 }
 
-p {
+.textosobre {
     font-size: 18px;
+    width: 70%;
+    text-align: left; 
 }
 
 .btnSobre {
