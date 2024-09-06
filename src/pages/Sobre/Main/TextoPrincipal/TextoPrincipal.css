@@ -1,0 +1,26 @@
+.containerTexto {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    height: auto;
+    margin-left: 64px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.btnSobre {
+    border-radius: 40px;
+    width: 300px;
+    background-color: #333333;
+    color: #FFFFFF;
+    border: none;
+    font-size: 22px;
+    font-weight: 500;
+    margin-right: 108%;
+}

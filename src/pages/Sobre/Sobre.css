@@ -1,0 +1,4 @@
+.containerSobre {
+    display: flex;
+    flex-direction: column;
+}
