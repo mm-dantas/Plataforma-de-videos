@@ -126,3 +126,6 @@
     font-weight: 700;
   }
   
+button {
+  z-index: 2 
+}
