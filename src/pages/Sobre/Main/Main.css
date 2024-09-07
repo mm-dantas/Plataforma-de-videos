@@ -1,4 +1,7 @@
 .containerMain {
     display: flex;
-    gap: 167px;
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: space-evenly;
 }

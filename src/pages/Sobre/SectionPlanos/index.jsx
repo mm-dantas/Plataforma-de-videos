@@ -3,7 +3,7 @@ import './SectionPlanos.css'
 
 function SectionPlanos() {
     return(
-        <main>
+        <main className="main">
             <Planos/>
         </main>
     )

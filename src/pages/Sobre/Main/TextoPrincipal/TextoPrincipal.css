@@ -1,8 +1,8 @@
 .containerTexto {
     display: flex;
     flex-direction: column;
+    align-items: start;
     height: auto;
-    margin-left: 64px;
     width: 50%;
     text-align: left; 
 }
@@ -19,6 +19,7 @@ h1 {
 }
 
 .btnSobre {
+    margin: 0;
     border-radius: 40px;
     width: 300px;
     background-color: #333333;
@@ -26,5 +27,6 @@ h1 {
     border: none;
     font-size: 22px;
     font-weight: 500;
-    margin-right: 108%;
+    padding: 24px 56px;
+    box-sizing: border-box;
 }
