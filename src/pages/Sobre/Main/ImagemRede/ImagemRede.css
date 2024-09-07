@@ -1,0 +1,11 @@
+.containerRede{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    gap: 50px;
+    padding: 0;
+}
+.celular{
+    width: 250px;
+    height: auto;
+}
